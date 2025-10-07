@@ -9,7 +9,7 @@
     "#controllers/*": "./src/controllers/*",
     "#routes/*": "./src/routes/*",
     "#services/*": "./src/services/*",
-    "#middlewares/*": "./src/middlewares/*",
+    "#middleware/*": "./src/middleware/*",
     "#utils/*": "./src/utils/*",
     "#db/*": "./src/db/*",
     "#models/*": "./src/models/*"
@@ -38,7 +38,10 @@
   "homepage": "https://github.com/Drivasx/acquisitions#readme",
   "description": "",
   "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.13",
+    "@arcjet/node": "^1.0.0-beta.13",
     "@neondatabase/serverless": "^1.0.2",
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
