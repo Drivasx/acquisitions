@@ -45,3 +45,12 @@
 {"level":"info","message":"::1 - - [07/Oct/2025:17:35:46 +0000] \"GET /health?name=Daavid&email=holdasdasd%40gmail.com&password=1234567 HTTP/1.1\" 429 71 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded:","method":"GET","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [07/Oct/2025:17:35:46 +0000] \"GET /health?name=Daavid&email=holdasdasd%40gmail.com&password=1234567 HTTP/1.1\" 429 71 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked:","path":"/health","service":"acquisitions-api","userAgent":"curl/8.5.0"}
+{"level":"info","message":"::1 - - [15/Oct/2025:16:10:36 +0000] \"GET /health HTTP/1.1\" 403 77 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked:","path":"/api","service":"acquisitions-api","userAgent":"curl/8.5.0"}
+{"level":"info","message":"::1 - - [15/Oct/2025:16:11:03 +0000] \"GET /api HTTP/1.1\" 403 77 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [15/Oct/2025:16:14:33 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 61 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User created successfully: david@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: david@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [15/Oct/2025:16:14:42 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 119 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [15/Oct/2025:16:15:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"HTTPie\"","service":"acquisitions-api"}
