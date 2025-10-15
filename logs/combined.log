@@ -54,3 +54,6 @@
 {"level":"info","message":"User registered successfully: david@gmail.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [15/Oct/2025:16:14:42 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 119 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [15/Oct/2025:16:15:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [15/Oct/2025:19:29:49 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [15/Oct/2025:19:30:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [15/Oct/2025:19:31:38 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"curl/8.5.0\"","service":"acquisitions-api"}
