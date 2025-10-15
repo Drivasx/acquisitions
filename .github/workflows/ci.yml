@@ -43,9 +43,13 @@ jobs:
             -e DISABLE_SECURITY=true \
             -e ARCJET_KEY=dummy-ci-key \
             acquisitions:ci
-          # Esperar a que arranque
-          for i in {1..20}; do
+          # Wait for the service to start
+          for i in $(seq 1 20); do
             if curl -sf http://localhost:3000/health > /dev/null; then
-              echo "Healthcheck OK"; break; fi; sleep 1; done
+              echo "Healthcheck OK"
+              break
+            fi
+            sleep 1
+          done
           curl -sf http://localhost:3000/health
           docker stop acquisitions-ci
